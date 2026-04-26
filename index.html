@@ -1,179 +1,124 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrimeCore Supply Group LLC</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        .gradient-bg {
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-        }
-    </style>
-</head>
-<body class="bg-slate-50 text-slate-900 font-sans">
-
-    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-2">
-                <i data-lucide="package" class="text-blue-600"></i>
-                <span class="font-bold text-xl tracking-tight">PRIMECORE</span>
-            </div>
-            <div class="hidden md:flex gap-8 font-medium text-sm uppercase tracking-widest text-slate-600">
-                <a href="#about" class="hover:text-blue-600 transition">About</a>
-                <a href="#supplies" class="hover:text-blue-600 transition">Supplies</a>
-                <a href="#testimonials" class="hover:text-blue-600 transition">Testimonials</a>
-                <a href="#quote" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition text-center">Get Quote</a>
-            </div>
-        </div>
-    </nav>
-
-    <header class="pt-32 pb-20 gradient-bg text-white">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h1 class="text-5xl md:text-6xl font-extrabold mb-6">PrimeCore Supply Group LLC</h1>
-            <p class="text-xl text-slate-300 max-w-2xl mx-auto mb-10">
-                Your mission-critical partner in industrial logistics and wholesale distribution. We bridge the gap between production and progress.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#supplies" class="px-8 py-3 bg-blue-600 rounded-full font-semibold hover:bg-blue-500 transition">Our Inventory</a>
-                <a href="#quote" class="px-8 py-3 border border-slate-500 rounded-full font-semibold hover:bg-white/10 transition">Request Quote</a>
-            </div>
-        </div>
-    </header>
-
-    <section id="about" class="py-24 max-w-7xl mx-auto px-6">
-        <div class="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-                <h2 class="text-3xl font-bold mb-6 text-slate-800">Efficiency in Every Link</h2>
-                <p class="text-slate-600 leading-relaxed mb-6">
-                    PrimeCore Supply Group LLC specializes in high-volume procurement and logistical management.
-                </p>
-                <ul class="space-y-4">
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle" class="text-green-500 mt-1"></i>
-                        <span><strong>Global Sourcing:</strong> Direct partnerships with Tier-1 manufacturers.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle" class="text-green-500 mt-1"></i>
-                        <span><strong>Just-In-Time Delivery:</strong> Reduced overhead and storage costs.</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="bg-slate-200 h-64 md:h-80 rounded-2xl flex items-center justify-center border-2 border-dashed border-slate-400">
-                <i data-lucide="truck" size="48" class="text-slate-400"></i>
-            </div>
-        </div>
-    </section>
-
-    <section id="supplies" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold text-slate-800 mb-16">What We Supply</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="p-8 rounded-2xl border border-slate-100 bg-slate-50 group hover:shadow-lg transition">
-                    <i data-lucide="hard-hat" class="mx-auto mb-4 text-blue-600"></i>
-                    <h3 class="font-bold mb-2">Construction</h3>
-                    <p class="text-slate-500 text-sm">Bulk lumber, steel, and concrete additives.</p>
-                </div>
-                <div class="p-8 rounded-2xl border border-slate-100 bg-slate-50 group hover:shadow-lg transition">
-                    <i data-lucide="cpu" class="mx-auto mb-4 text-blue-600"></i>
-                    <h3 class="font-bold mb-2">Electronics</h3>
-                    <p class="text-slate-500 text-sm">Semiconductors, cabling, and server components.</p>
-                </div>
-                <div class="p-8 rounded-2xl border border-slate-100 bg-slate-50 group hover:shadow-lg transition">
-                    <i data-lucide="beaker" class="mx-auto mb-4 text-blue-600"></i>
-                    <h3 class="font-bold mb-2">Industrial Chemicals</h3>
-                    <p class="text-slate-500 text-sm">Solvents, janitorial supplies, and cleaning agents.</p>
+<section id="quote" class="py-24 bg-slate-50">
+    <div class="max-w-4xl mx-auto px-6">
+        <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+            <div class="md:w-1/3 bg-blue-600 p-10 text-white">
+                <h2 class="text-2xl font-bold mb-6">Partner With Us</h2>
+                <p class="text-blue-100 text-sm mb-8">Select your specific requirements below for an accurate quote.</p>
+                <div class="flex items-center gap-3 text-sm">
+                    <i data-lucide="mail" size="18"></i>
+                    <span>quotes@primecore.com</span>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="quote" class="py-24 bg-slate-50">
-        <div class="max-w-4xl mx-auto px-6">
-            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
-                <div class="md:w-1/3 bg-blue-600 p-10 text-white">
-                    <h2 class="text-2xl font-bold mb-6">Partner With Us</h2>
-                    <p class="text-blue-100 text-sm mb-8">Get a professional quote within 24 hours.</p>
-                    <div class="flex items-center gap-3 text-sm">
-                        <i data-lucide="mail" size="18"></i>
-                        <span>quotes@primecore.com</span>
+            <div class="md:w-2/3 p-10">
+                <form id="quoteForm" action="https://formspree.io/f/xojybewq" method="POST" class="space-y-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="col-span-2 sm:col-span-1">
+                            <label class="text-xs font-bold uppercase text-slate-400 block mb-1">Email Address</label>
+                            <input type="email" name="email" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
+                        </div>
+                        <div class="col-span-2 sm:col-span-1">
+                            <label class="text-xs font-bold uppercase text-slate-400 block mb-1">Quantity Needed</label>
+                            <input type="number" name="quantity" min="1" value="1" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
+                        </div>
                     </div>
-                </div>
-                <div class="md:w-2/3 p-10">
-                    <form id="quoteForm" action="https://formspree.io/f/xojybewq" method="POST" class="space-y-4">
-                        <div class="grid grid-cols-2 gap-4">
-                            <div class="col-span-2 sm:col-span-1">
-                                <label class="text-xs font-bold uppercase text-slate-400 block mb-1">Company Name</label>
-                                <input type="text" name="company" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
-                            </div>
-                            <div class="col-span-2 sm:col-span-1">
-                                <label class="text-xs font-bold uppercase text-slate-400 block mb-1">Email</label>
-                                <input type="email" name="email" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
-                            </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="text-xs font-bold uppercase text-slate-400 block mb-1">Category</label>
+                            <select id="categorySelect" name="category" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
+                                <option value="">Select Category</option>
+                                <option value="construction">Construction Materials</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="chemicals">Chemicals / Janitorial</option>
+                            </select>
                         </div>
                         <div>
-                            <label class="text-xs font-bold uppercase text-slate-400 block mb-1">Message</label>
-                            <textarea name="message" rows="3" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none"></textarea>
+                            <label class="text-xs font-bold uppercase text-slate-400 block mb-1">Specific Item</label>
+                            <select id="itemSelect" name="item" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none" disabled>
+                                <option value="">Choose Category First</option>
+                            </select>
                         </div>
-                        <button type="submit" id="submitBtn" class="w-full bg-slate-900 text-white py-3 rounded-lg font-bold hover:bg-slate-800 transition">Send Quote Request</button>
-                        <p id="formStatus" class="text-center text-sm mt-2 hidden font-medium"></p>
-                    </form>
-                </div>
+                    </div>
+
+                    <div>
+                        <label class="text-xs font-bold uppercase text-slate-400 block mb-1">Additional Notes</label>
+                        <textarea name="message" rows="3" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none" placeholder="Special delivery instructions or bulk sizing..."></textarea>
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="w-full bg-slate-900 text-white py-3 rounded-lg font-bold hover:bg-slate-800 transition">Send Quote Request</button>
+                    <p id="formStatus" class="text-center text-sm mt-2 hidden font-medium"></p>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer class="py-12 border-t text-center text-slate-500 text-sm">
-        &copy; 2026 PrimeCore Supply Group LLC. All rights reserved.
-    </footer>
+<script>
+    lucide.createIcons();
 
-    <script>
-        lucide.createIcons();
+    // 1. DATA FOR DROPDOWNS
+    const inventory = {
+        construction: ["Bulk Lumber", "Steel Reinforcements", "Concrete Additives", "Scaffolding"],
+        electronics: ["Keyboards & Mice", "Semiconductors", "Fiber Optic Cabling", "Server Rack Units"],
+        chemicals: ["Industrial Solvents", "Janitorial Supplies", "Specialty Cleaning Agents", "Safety Reagents"]
+    };
 
-        const form = document.getElementById('quoteForm');
-        const status = document.getElementById('formStatus');
-        const btn = document.getElementById('submitBtn');
+    const categorySelect = document.getElementById('categorySelect');
+    const itemSelect = document.getElementById('itemSelect');
 
-        form.addEventListener('submit', async (e) => {
-            e.preventDefault();
+    // 2. LOGIC TO UPDATE ITEMS BASED ON CATEGORY
+    categorySelect.addEventListener('change', function() {
+        const selected = this.value;
+        
+        // Clear previous options
+        itemSelect.innerHTML = '<option value="">Select Item</option>';
+        
+        if (selected && inventory[selected]) {
+            itemSelect.disabled = false;
+            inventory[selected].forEach(item => {
+                const option = document.createElement('option');
+                option.value = item;
+                option.textContent = item;
+                itemSelect.appendChild(option);
+            });
+        } else {
+            itemSelect.disabled = true;
+            itemSelect.innerHTML = '<option value="">Choose Category First</option>';
+        }
+    });
+
+    // 3. FORM SUBMISSION LOGIC
+    const form = document.getElementById('quoteForm');
+    const status = document.getElementById('formStatus');
+    const btn = document.getElementById('submitBtn');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        btn.disabled = true;
+        btn.textContent = "Sending...";
+        status.classList.add('hidden');
+
+        try {
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form),
+                headers: { 'Accept': 'application/json' }
+            });
             
-            btn.disabled = true;
-            btn.textContent = "Sending...";
-            status.classList.add('hidden');
-
-            const formData = new FormData(form);
-            
-            try {
-                const response = await fetch(form.action, {
-                    method: 'POST',
-                    body: formData,
-                    headers: { 'Accept': 'application/json' }
-                });
-                
-                if (response.ok) {
-                    status.textContent = "Thank you! Your request has been sent.";
-                    status.className = "text-center text-sm mt-2 block text-green-600";
-                    form.reset();
-                    btn.textContent = "Sent Successfully";
-                } else {
-                    const data = await response.json();
-                    if (data.errors) {
-                        status.textContent = data.errors.map(error => error.message).join(", ");
-                    } else {
-                        status.textContent = "Oops! There was a problem.";
-                    }
-                    status.className = "text-center text-sm mt-2 block text-red-500";
-                    btn.disabled = false;
-                    btn.textContent = "Send Quote Request";
-                }
-            } catch (err) {
-                status.textContent = "Network error. Please try again later.";
-                status.className = "text-center text-sm mt-2 block text-red-500";
-                btn.disabled = false;
-                btn.textContent = "Send Quote Request";
+            if (response.ok) {
+                status.textContent = "Success! Quote request sent.";
+                status.className = "text-center text-sm mt-2 block text-green-600 font-bold";
+                form.reset();
+                itemSelect.disabled = true;
+                btn.textContent = "Sent Successfully";
+            } else {
+                throw new Error();
             }
-        });
-    </script>
-</body>
-</html>
+        } catch (err) {
+            status.textContent = "Network error. Please try again.";
+            status.className = "text-center text-sm mt-2 block text-red-500";
+            btn.disabled = false;
+            btn.textContent = "Send Quote Request";
+        }
+    });
+</script>
